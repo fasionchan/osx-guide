@@ -58,3 +58,12 @@ Python
     [Clang 10.0.0 (clang-1000.11.45.5)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
+
+下一步
+======
+
+.. include:: /_fragments/next-step-to-wechat-mp.rst
+
+.. include:: /_fragments/wechat-reward.rst
+
+.. include:: /_fragments/disqus.rst

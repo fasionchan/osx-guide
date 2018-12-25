@@ -55,6 +55,7 @@
 .. toctree::
     :titlesonly:
 
+    browsersync <browsersync>
     Homebrew <homebrew>
     iTerm2 <iterm2>
     Python <python>
