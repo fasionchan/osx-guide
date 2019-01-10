@@ -51,6 +51,8 @@ Homebrew
 
 安装过程中需按提示输入密码。
 
+安装过程输出这里省略了，详见： :doc:`homebrew-install-detail` 。
+
 使用
 ====
 
@@ -83,7 +85,7 @@ Homebrew
     fasion@MacKhaos:~$ git --version
     git version 2.16.3
 
-使用强大的 `Homebrew <https://brew.sh/>`_ ，一行代码便搞定了 `Git` 的安装！
+使用强大的 `Homebrew <https://brew.sh/>`_ ，一行命令便搞定了 `Git` 的安装！
 
 高级配置
 ========
