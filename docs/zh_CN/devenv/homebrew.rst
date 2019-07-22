@@ -87,6 +87,24 @@ Homebrew
 
 使用强大的 `Homebrew <https://brew.sh/>`_ ，一行命令便搞定了 `Git` 的安装！
 
+软链维护
+--------
+
+`Homebrew` 将软件安装完毕后，软链到 */usr/local/bin* 目录下，以便在命令行中调用( `PATH` 环境变量 )。
+如果不想使用 `brew` 安装的版本，可以执行 `unlink` 将相关软链删除：
+
+.. code-block:: shell-session
+
+    fasion@MacKhaos:~$ brew unlink git
+    Unlinking /usr/local/Cellar/git/2.16.3... 210 symlinks removed
+
+后续想用回 `brew` 安装的版本，执行 `link` 命令即可重新创建软链：
+
+.. code-block:: shell-session
+
+    fasion@MacKhaos:~$ brew link git
+    Linking /usr/local/Cellar/git/2.16.3... 209 symlinks created
+
 高级配置
 ========
 

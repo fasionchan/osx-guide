@@ -59,3 +59,4 @@
     Homebrew <homebrew>
     iTerm2 <iterm2>
     Python <python>
+    VS Code <vscode/index>

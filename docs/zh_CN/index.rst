@@ -29,6 +29,7 @@ OSX操作指南
     初始化 <initialization/index>
     开发环境 <devenv/index>
     常用操作 <common-operation/index>
+    附录 <appendices/index>
 
 .. comments
     comment something out below
